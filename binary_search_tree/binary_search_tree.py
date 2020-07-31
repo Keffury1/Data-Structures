@@ -33,7 +33,6 @@ class BSTNode:
             else:
                 self.right.insert(value)
 
-
     # Return True if the tree contains the value
     # False if it does not
     def contains(self, target):
@@ -62,7 +61,7 @@ class BSTNode:
 
     # Print all the values in order from low to high
     # Hint:  Use a recursive, depth first traversal
-    def in_order_print(self, node):
+    def in_order_print(self):
         if not self:
             return
         if self.left:
@@ -104,11 +103,11 @@ class BSTNode:
     # Note: Research may be required
 
     # Print Pre-order recursive DFT
-    def pre_order_dft(self, node):
+    def pre_order_dft(self):
         pass
 
     # Print Post-order recursive DFT
-    def post_order_dft(self, node):
+    def post_order_dft(self):
         pass
 
 
