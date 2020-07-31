@@ -10,9 +10,9 @@ This part of the project comprises two days:
    on the BSTNode class.
 """
 
-import sys
-sys.path.extend(['queue','binary_search_tree'])
 from queue import Queue
+from stack import Stack
+from singly_linked_list import LinkedList
 
 class BSTNode:
     def __init__(self, value):
@@ -98,7 +98,7 @@ class BSTNode:
             if node.left:
                 stack.push(node.left)
             if node.right:
-                stack.push(node.right)
+                stack.push(node.right) 
 
     # Stretch Goals -------------------------
     # Note: Research may be required
